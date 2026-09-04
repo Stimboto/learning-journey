@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      tr,
+      td,
+      th,tfoot{
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Tables</h1>
+      <table>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+      </table>
+
+      <h2>ScoreCard</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Student/subject</th>
+            <th>Maths</th>
+            <th>Hindi</th>
+            <th>English</th>
+            <th>Science</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Anu</td>
+            <td>90</td>
+            <td>59</td>
+            <td>70</td>
+            <td>96</td>
+          </tr>
+          <tr>
+            <td>Bhavya</td>
+            <td>90</td>
+            <td>59</td>
+            <td>70</td>
+            <td>96</td>
+          </tr>
+          <tr>
+            <td>Sumit</td>
+            <td>90</td>
+            <td>59</td>
+            <td>70</td>
+            <td>96</td>
+          </tr>
+          <tr>
+            <td>Aadi</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+          </tr>
+        </tbody>
+        <tfoot>
+            <th>Total</th>
+            <th>625</th>
+            <th>223</th>
+            <th>453</th>
+            <th>344</th>
+        </tfoot>
+        <caption>Student scores</caption>
+      </table>
+
+      <h2>Rowspan and colspan</h2>
+      <table>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" style="text-align: center;">Average</th>
+            <th>Red eyes</th>
+        </tr>
+        <tr>
+            <th>height</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+        <caption>A test table with merge cells</caption>
+      </table>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+class Solution {
+public:
+    vector<vector<int>> generateMatrix(int n) {
+        vector<vector<int>> ans(n,vector<int>(n,0));
+        int minr = 0, maxr = n-1;
+        int minc = 0, maxc = n-1;
+        int count =1;
+
+        while(minr<=maxr && minc<=maxc){
+            for(int j=minc;j<=maxc;j++) {ans[minr][j] = count; count++;}
+            minr++;
+
+            if(minr>maxr || minc>maxc) break;
+
+            for(int i=minr;i<=maxr;i++) {ans[i][maxc] = count; count++;}
+            maxc--;
+
+            if(minr>maxr || minc>maxc) break;
+
+
+            for(int j=maxc; j>=minc;j--) {ans[maxr][j]=count; count++;}
+            maxr--;
+
+            if(minr>maxr || minc>maxc) break;
+
+            for(int i=maxr;i>=minr;i--) {ans[i][minc] =count; count++;}
+            minc++;
+        }
+        return ans;
+        
+    }
+};
+
+
+
+int main(){
+    /*
+     
+     */
+  
+}

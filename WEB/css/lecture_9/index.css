@@ -1,0 +1,104 @@
+
+
+/* span {
+    color: blue;
+}
+
+h3{ 
+    color: blueviolet;
+}
+
+a,li{
+     color: violet;
+}
+        
+.hello{
+     color: blue;
+}
+.hello2{
+     background:  blue;
+}
+
+#stim{
+      color: pink;
+      background: aqua;
+}
+
+h1 {
+   color: burlywood;
+}
+
+#bec {
+    color: black;
+}
+.rak {
+    color: blue;
+} */
+
+/* descendent */
+/* div p{
+    color: blue;
+} */
+
+/* sibling */
+/* div >p {
+    color: blueviolet;
+} */
+
+/* adjacent sibling  */
+/* a + p {
+    color: aqua;
+} */
+
+/* general sibling combinator */
+/* a ~ p{
+    color: aquamarine;
+} */
+
+/* 
+*{
+    color: orange;
+} 
+*/
+
+/* Pseudo class*/
+h1:hover {
+    color: red;
+    background-color: aqua;
+}
+
+#stim:hover{
+    color: violet;
+}
+.hello:hover{
+    color: blue;
+}
+
+/* li:hover{
+    color: red;
+} */
+
+/* li:last-child {
+    color: green;
+} */
+
+/* an + b formula */
+li:nth-child(2n +3){
+    color: violet;
+}
+
+/* h1::after {
+      content: " Ji";
+} */
+/* h1::before {
+    content: "Excuse me ";
+} */
+
+h1::first-letter{
+    color: blue;
+}
+
+::selection {
+    color: brown;
+    background-color: orange;
+}

@@ -1,0 +1,65 @@
+#aditya {
+    font-family: "Yuyu";
+}
+
+.yuyu-regular {
+  font-family: "Yuyu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#adi {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow: -1px -1px 10px red;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bolder;
+    text-indent: 100px;
+}
+
+#aditi {
+    font-style: italic;
+    /* font-variant: small-caps; */
+    line-height: 1.2;
+    letter-spacing: -1px;
+    word-spacing: 5px;
+}
+
+/* inline element stucked */
+#wow {
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    /* display: block;
+    text-decoration: underline dashed 3px;
+    text-decoration: line-through;
+    text-decoration: overline wavy;
+    text-decoration: underline wavy; */
+    /* text-transform: uppercase;
+    text-transform: lowercase; */
+
+    text-indent: 50px;
+    /* indent applies on block element only */
+}
+
+
+em {
+    font-style: normal;
+}
+
+#ayush {
+    text-align: center;
+    border: 1px solid red;
+}
+
+#color {
+    /* color: red;
+    color: #e6771c;
+    color: rgb(0,0,255);
+    color: rgba(255, 0, 0, 0.619); */
+    color: hsl(359, 100%, 50%);
+    color: hsl(359, 100%, 50%, 0.5);
+
+}

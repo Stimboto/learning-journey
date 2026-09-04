@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Kumar | Portfolio</title>
+  
+  <style>/* ===========================
+   GOOGLE FONT
+=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================
+   RESET
+=========================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
+    color:#fff;
+    line-height:1.7;
+}
+
+/* Background Glow */
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:
+        radial-gradient(circle at top left,#3b82f644,transparent 35%),
+        radial-gradient(circle at bottom right,#9333ea44,transparent 35%);
+    z-index:-1;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:999;
+
+    background:rgba(15,23,42,.85);
+    backdrop-filter:blur(20px);
+
+    text-align:center;
+
+    padding:18px 20px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+header h1{
+    font-size:2.3rem;
+    font-weight:700;
+    background:linear-gradient(90deg,#38bdf8,#a855f7);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+header p{
+    color:#cbd5e1;
+    font-size:.95rem;
+    margin-top:4px;
+}
+
+nav{
+    margin-top:12px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:0 12px;
+    font-weight:500;
+    transition:.3s;
+    position:relative;
+}
+
+nav a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-4px;
+    width:0%;
+    height:2px;
+    background:#38bdf8;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+nav a:hover::after{
+    width:100%;
+}
+
+/* ===========================
+   SECTIONS
+=========================== */
+
+section{
+    width:min(1100px,92%);
+    margin:50px auto;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+    transition:.35s;
+}
+
+section:hover{
+    transform:translateY(-5px);
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#38bdf8;
+    font-size:2rem;
+}
+
+/* ===========================
+   ABOUT
+=========================== */
+
+figure{
+    text-align:center;
+}
+
+img{
+    max-width:100%;
+    width:360px;
+
+    border-radius:20px;
+
+    border:3px solid rgba(255,255,255,.15);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.4);
+
+    transition:.4s;
+}
+
+img:hover{
+    transform:scale(1.04);
+}
+
+figcaption{
+    margin-top:12px;
+    color:#cbd5e1;
+    font-style:italic;
+}
+
+#about p{
+    margin-top:25px;
+    text-align:center;
+    max-width:850px;
+    margin-inline:auto;
+}
+
+/* ===========================
+   PROJECTS
+=========================== */
+
+article{
+    margin:25px 0;
+
+    padding:25px;
+
+    background:rgba(255,255,255,.05);
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+}
+
+article:hover{
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 30px rgba(59,130,246,.25);
+}
+
+article h3{
+    color:#60a5fa;
+    margin-bottom:12px;
+}
+
+article p{
+    margin-bottom:8px;
+}
+
+article a{
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:11px 22px;
+
+    border-radius:40px;
+
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+article a:hover{
+    transform:translateY(-3px);
+
+    box-shadow:0 8px 20px rgba(59,130,246,.35);
+}
+
+/* ===========================
+   SKILLS
+=========================== */
+
+#project div{
+    margin-top:40px;
+}
+
+#project h3{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+ul{
+    list-style:none;
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+}
+
+li{
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+
+    padding:12px 28px;
+
+    border-radius:30px;
+
+    transition:.3s;
+}
+
+li:hover{
+    transform:translateY(-5px);
+}
+
+/* ===========================
+   VIDEO
+=========================== */
+
+video{
+    display:block;
+
+    width:100%;
+
+    max-width:700px;
+
+    margin:auto;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.35);
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    margin-top:60px;
+
+    background:#020617;
+
+    text-align:center;
+
+    padding:50px 20px;
+}
+
+footer h2{
+    color:#38bdf8;
+
+    margin-bottom:25px;
+}
+
+form{
+    width:min(650px,95%);
+    margin:auto;
+}
+
+label{
+    display:block;
+    text-align:left;
+    margin-bottom:6px;
+}
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:12px;
+
+    background:#1e293b;
+
+    color:white;
+
+    margin-bottom:18px;
+
+    font-family:inherit;
+
+    transition:.3s;
+}
+
+input:focus,
+textarea:focus{
+    box-shadow:0 0 0 3px #38bdf8;
+}
+
+button{
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+
+    color:white;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-4px);
+
+    box-shadow:0 10px 25px rgba(37,99,235,.4);
+}
+
+footer a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:white;
+}
+
+footer p{
+    margin:18px 0;
+    color:#cbd5e1;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width:768px){
+
+header{
+    padding:14px;
+}
+
+header h1{
+    font-size:1.8rem;
+}
+
+header p{
+    font-size:.9rem;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    display:inline-block;
+    margin:6px;
+}
+
+section{
+    padding:25px;
+}
+
+section h2{
+    font-size:1.6rem;
+}
+
+ul{
+    flex-direction:column;
+    align-items:center;
+}
+
+article{
+    text-align:center;
+}
+
+button{
+    width:100%;
+}
+
+}</style>
+  </head>
+  <body>
+    <header>
+      <h1>Aditya Kumar</h1>
+      <p>Full Stack Developer & LifeLong Learner</p>
+
+      <nav>
+        <a href="#about">About</a> |
+        <a href="#project">Projects</a> |
+        <a href="#contact">Contacts</a> |
+        <a href="#intro">Intro</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About me</h2>
+        <figure>
+          <img src="myfav.jpeg" alt="myfav" width="400px" />
+          <figcaption>That's me at my first hackathon</figcaption>
+        </figure>
+
+        <p>
+          Hi! I am <strong>Aditya Kumar</strong>, a passionate full stack
+          developer learning to build real-world products. I am currently taking
+          the classes to enhace my <em>skill all the ways</em> till this gets
+          done.
+        </p>
+      </section>
+
+
+      <section id="project">
+        <h2>My Projects</h2>
+        <article>
+          <h3><strong>Project One : Portfolio website</strong></h3>
+          <p>
+            A simple personal portfolio built with <strong>HTML & CSS</strong>
+          </p>
+          <p>A todo list app buil with <strong>Javascript</strong></p>
+          <a href="https://github.com/stimboto" target="_blank">View on Github</a>
+        </article>
+
+        <article>
+          <h3><strong>Project Two : Portfolio website</strong></h3>
+          <p>
+            A simple personal portfolio built with <strong>HTML & CSS</strong>
+          </p>
+          <p>A todo list app buil with <strong>Javascript</strong></p>
+          <a href="https://github.com/stimboto" target="_blank">View on Github</a>
+        </article>
+
+        <div>
+          <h3>Skills</h3>
+          <ul type="disc">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="intro">
+        <h2>Watch My Intro</h2>
+
+        <video
+          src="woww.mp4"
+          controls
+          loop
+          muted
+          poster="myfav.jpeg"
+          width="400px"
+        ></video>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <h2>Contact Me</h2>
+
+      <form action="https://stimboto.web.app">
+        <p>Email: <a href="mailto:ad.stim798@gmail.com">ad.stim798@gmail.com</a></p>
+        <p>Phone: <a href="tel:+917906795837">+91 7906795837</a></p>
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+        <br /><br />
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br /><br />
+        <label for="area">Message: </label><br />
+        <textarea name="area" id="area" rows="5" cols="33">
+Enter your query here.....</textarea
+        >
+        <br /><br />
+        <button type="submit">Send message</button>
+      </form>
+      <p>&copy; 2026 Aditya Kumar. All rights reserved.</p>
+
+      <div>
+        <a href="https://in.linkedin.com/stimboto" target="_blank">Linkedin</a
+      > | <a href="https://github.com/stimboto" target="_blank"
+        >Github</a
+      >
+      </div>
+      
+    </footer>
+  </body>
+</html>
