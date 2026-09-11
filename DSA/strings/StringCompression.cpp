@@ -7,6 +7,10 @@ using namespace std;
 /*
 Time  = O(n)
 Space = O(n)
+i = start of window
+j = expand until condition changes
+process [i ... j-1]
+i = j       ← jump
 */
 class Solution {
 public:
