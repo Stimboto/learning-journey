@@ -8,10 +8,10 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/Status-Private%20Repository-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Public%20Repository-111827?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Journey-In%20Progress-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Discipline-Daily-059669?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Mission-Level%2010-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Focus-Engineering-059669?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Mission-Continuous%20Growth-7C3AED?style=for-the-badge"/>
 
 </div>
 
@@ -19,257 +19,277 @@
 
 # Engineering Journal
 
-> **This repository is not a collection of lecture code.**
->
-> It is the engineering log of transforming practical experience into world-class software engineering fundamentals.
+> **A living record of learning, building, and becoming a better engineer.**
+
+This repository is where I document the technical journey behind the work.
+
+Not just finished projects.
+
+Not just solved problems.
+
+But the **process of understanding things deeply enough to build with them.**
 
 ---
 
-<table>
-<tr>
+## The Journey
 
-<td width="60%">
+Engineering skill is built in layers.
 
-## Why this repository exists
+I have spent a significant part of my journey learning by building real things — figuring out how products work, breaking them, fixing them, and shipping them.
 
-For the last few years, I focused almost entirely on **building**.
+Now the focus is expanding from **building applications** to understanding the **fundamentals underneath them**.
 
-I designed, developed and deployed multiple production applications from scratch, learning through documentation, experimentation and relentless iteration.
+This repository brings those areas together.
 
-That journey taught me how products are shipped.
-
-Now it's time to master what happens underneath them.
-
-Algorithms.
-
-Computer Science.
-
-Software Engineering.
-
-Scalable Architecture.
-
-This repository documents that transition.
-
-Every folder.
-
-Every commit.
-
-Every solved problem.
-
-Every lesson.
-
-Everything here exists for one purpose—
-
-**becoming a significantly stronger engineer than yesterday.**
-
-</td>
-
-<td width="40%" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=00000000"/>
-
-</td>
-
-</tr>
-</table>
+```text
+                    LEARNING JOURNEY
+                          │
+          ┌───────────────┼───────────────┐
+          │               │               │
+          ▼               ▼               ▼
+         DSA             AIML             WEB
+          │               │               │
+          │               │               │
+   Problem Solving   Intelligence      Systems
+   Algorithms        Data              Applications
+   Complexity        Models            Architecture
+          │               │               │
+          └───────────────┼───────────────┘
+                          │
+                          ▼
+                 STRONGER ENGINEERING
+```
 
 ---
 
-<div align="center">
+## What I'm Learning
+
+### `DSA`
+
+**Data Structures & Algorithms**
+
+The foundation for structured problem solving.
+
+This section contains implementations, practice problems, experiments, and notes covering topics such as:
+
+- Arrays & Strings
+- Searching & Sorting
+- Recursion
+- Linked Lists
+- Stacks & Queues
+- Trees
+- Graphs
+- Dynamic Programming
+- Problem-solving patterns
+
+The goal is not to memorize solutions.
+
+**The goal is to learn how to think.**
+
+---
+
+### `AIML`
+
+**Artificial Intelligence & Machine Learning**
+
+Exploring the mathematics, algorithms, tools, and ideas behind intelligent systems.
+
+This section will gradually contain:
+
+- Python & numerical computing
+- Data preprocessing
+- Machine Learning
+- Neural Networks
+- Deep Learning
+- Model experimentation
+- AI concepts & implementations
+
+The emphasis is on understanding what happens **under the abstraction**.
+
+---
+
+### `WEB`
+
+**Web Development & Engineering**
+
+A continuation of the practical side of engineering — building things that actually work.
+
+This section covers:
+
+- Frontend development
+- Backend development
+- APIs
+- Databases
+- Authentication
+- System design
+- Deployment
+- Experiments & projects
+
+The objective is to move from **writing code that works** to **engineering systems that last**.
+
+---
+
+## How This Repository Works
+
+There is no fixed syllabus here.
+
+The repository evolves as the learning does.
+
+```text
+Learn
+  │
+  ▼
+Understand
+  │
+  ▼
+Implement
+  │
+  ▼
+Break
+  │
+  ▼
+Debug
+  │
+  ▼
+Improve
+  │
+  ▼
+Commit
+  │
+  └──────────────► Repeat
+```
+
+A commit doesn't necessarily mean something impressive was built.
+
+Sometimes it means one concept finally made sense.
+
+Sometimes it is a solved problem.
+
+Sometimes it is a failed experiment.
+
+Sometimes it is simply another day of showing up.
+
+All of it counts.
+
+---
+
+## Repository Structure
+
+```text
+learning-journey/
+│
+├── DSA/
+│   ├── ...
+│   └── ...
+│
+├── AIML/
+│   ├── ...
+│   └── ...
+│
+├── WEB/
+│   ├── ...
+│   └── ...
+│
+├── README.md
+└── LICENSE
+```
+
+The structure will evolve as the scope of the journey expands.
+
+---
 
 ## Engineering Principles
 
-<table>
+### Understand before abstracting
 
-<tr>
-<td align="center" width="25%">
+Use frameworks and libraries, but know what they are hiding.
 
-### Build
+### Build while learning
 
-Ship real software.
+A concept understood only theoretically is rarely enough.
 
-</td>
+### Debug without escaping
 
-<td align="center" width="25%">
+Errors are part of the learning process.
 
-### Learn
+### Prefer fundamentals
 
-Understand every layer.
+Tools change.
 
-</td>
+Fundamentals compound.
 
-<td align="center" width="25%">
+### Keep the record
 
-### Improve
+Today's struggle becomes tomorrow's reference.
 
-One commit every day.
+### Be consistent
 
-</td>
+Progress does not require extraordinary days.
 
-<td align="center" width="25%">
-
-### Repeat
-
-Consistency compounds.
-
-</td>
-
-</tr>
-
-</table>
-
-</div>
+It requires ordinary days repeated for a long time.
 
 ---
 
-## Current Mission
+## The Standard
 
-Instead of collecting certificates,
+The objective is not to collect technologies.
 
-I'm building engineering capability.
+It is not to finish a checklist.
 
-The objective is simple.
+It is not to make this repository look impressive.
 
-Transform practical product-building experience into deep technical expertise through consistent implementation and disciplined practice.
+The objective is simpler:
 
-This repository is where that transformation becomes measurable.
+> **Understand more than I did yesterday.**
 
----
+Build better.
 
-<div align="center">
+Think deeper.
 
-## Progress Dashboard
+Write cleaner code.
 
-<table>
+Ask better questions.
 
-<tr>
-
-<td align="center">
-
-### DSA
-
-🟦🟦⬜⬜⬜⬜⬜⬜⬜⬜
-
-</td>
-
-<td align="center">
-
-### Web Engineering
-
-🟦🟦🟦⬜⬜⬜⬜⬜⬜⬜
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center">
-
-### AI / ML
-
-🟦⬜⬜⬜⬜⬜⬜⬜⬜⬜
-
-</td>
-
-<td align="center">
-
-### Data Analytics
-
-🟦⬜⬜⬜⬜⬜⬜⬜⬜⬜
-
-</td>
-
-</tr>
-
-</table>
-
-> Progress bars evolve as the repository grows.
-
-</div>
+And gradually become the kind of engineer capable of working from the fundamentals all the way to the final system.
 
 ---
 
-<div align="center">
+## The Long Game
 
-## Learning Activity
+There is no finish line attached to this repository.
+
+The folders will change.
+
+The technologies will change.
+
+The problems will become harder.
+
+The things that seem difficult today will eventually become ordinary.
+
+That's the point.
 
 ```text
-Mon ███████████████
-Tue ████████████
-Wed ████████████████
-Thu ██████████████
-Fri ██████████████████
-Sat ███████████████
-Sun █████████████
+                    ┌──────────────┐
+                    │    LEARN     │
+                    └──────┬───────┘
+                           │
+                           ▼
+                    ┌──────────────┐
+                    │    BUILD     │
+                    └──────┬───────┘
+                           │
+                           ▼
+                    ┌──────────────┐
+                    │    REFLECT   │
+                    └──────┬───────┘
+                           │
+                           ▼
+                    ┌──────────────┐
+                    │   IMPROVE    │
+                    └──────┬───────┘
+                           │
+                           └──────────► Repeat.
 ```
-
-</div>
-
----
-
-## Repository Architecture
-
-```text
-.
-├── README.md
-├── PROGRESS.md
-├── RESOURCES.md
-│
-├── dsa-cpp/
-│
-├── full-stack-web/
-│
-├── ai-ml/
-│
-├── data-analytics/
-│
-├── notes/
-│
-├── weekly-log/
-│
-└── certificates/
-```
-
-Each directory represents a continuous engineering discipline.
-
-Every file is written with the intention of understanding—not merely completing.
-
----
-
-<div align="center">
-
-## Engineering Timeline
-
-```text
-Build Products
-      │
-      ▼
-Understand Fundamentals
-      │
-      ▼
-Master Problem Solving
-      │
-      ▼
-Design Better Systems
-      │
-      ▼
-Become a Better Engineer
-```
-
-</div>
-
----
-
-## Philosophy
-
-Software engineering isn't measured by motivation.
-
-It's measured by consistency.
-
-Small improvements repeated every day eventually become expertise.
-
-This repository exists to make that process visible.
 
 ---
 
@@ -277,36 +297,13 @@ This repository exists to make that process visible.
 
 ## Current Focus
 
-| Area | Status |
-|:------|:------:|
-| Problem Solving | 🟢 |
-| Software Engineering | 🟢 |
-| Full Stack Development | 🟢 |
-| Artificial Intelligence | 🟡 |
-| Data Analytics | 🟡 |
-| Personal Knowledge Base | 🟢 |
+**Learn deeply.**
 
-</div>
+**Build consistently.**
 
----
+**Commit deliberately.**
 
-<div align="center">
-
-## Engineering Metrics
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=00000000"/>
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&hide_border=true"/>
-
-</div>
-
----
-
-<div align="center">
-
-## Contribution Graph
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=stimboto&theme=github-compact&hide_border=true"/>
+**Keep moving.**
 
 </div>
 
@@ -335,4 +332,3 @@ This repository exists to make that process visible.
 ### Keep Shipping.
 
 </div>
-````
