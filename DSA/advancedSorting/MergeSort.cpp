@@ -40,4 +40,12 @@ int main(){
     print(arr);
     mergeSort(arr);
     print(arr);
+
+    /*
+    Divide and conquer algorithm
+    merge sort is one of the most consistent algo
+    always remeber inc ase of two call -> first we call 1 and once it gets done then we call 2
+    TC = O(nlogn) -> total level = logn and total work on each level = n
+    AS = O(n) (if we delete the 2 n/2 sized copied array)
+    */
 }

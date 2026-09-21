@@ -2,6 +2,22 @@
 #include<vector>
 using namespace std;
 
+/*
+brute force:
+ TC = O(n^2) via nested loops
+ AS = O(1)
+arr = {5,2,11,8,3,7,1,-4,6};
+int n= arr.size();
+int count = 0;
+for(int i=0;i<n;i++){
+    for(int j=i+1;j<n;j++){
+        if(arr[i]>arr[j]) count++;
+        else continue; //doesn't matter
+    }
+}
+cout<<count<<endl;    
+*/
+
 class Solution {
   public:
     int count;
