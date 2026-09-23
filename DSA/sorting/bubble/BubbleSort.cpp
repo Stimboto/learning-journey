@@ -14,7 +14,6 @@ void print(vector<int>& arr){
 int main(){
     vector<int> arr = {5,4,3,6,2,1};
     int n = arr.size();
-
     print(arr);
 
     //bubble sort
