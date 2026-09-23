@@ -1,5 +1,11 @@
 #include<iostream>
 using namespace std;
+
+/*
+bydefault private if not specified
+pvt can only be accessed within the class
+*/
+
 class Cricketer{
 private:
     int runs;
@@ -16,10 +22,11 @@ public:
         cout<<runs<<endl;
         cout<<average<<endl;
     }
-    int getRuns(){ // getter
+    int getRuns(){
         return runs;
     }
-    void setRuns(int runs){ // setter
+    //usually use setters less
+    void setRuns(int runs){
         this->runs = runs;
     }
 };
