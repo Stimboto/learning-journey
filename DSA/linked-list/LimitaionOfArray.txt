@@ -1,0 +1,5 @@
+1. Fixed size -> even vector isn't truly unlimited
+2. Contiguous memory allocation -> although we can retrieve elmnts very quick in O(1) via arr[indx]
+3. potential wastage of memory
+4. insertion and deletion in between / front takes too much
+lets goooo -> Linked list
